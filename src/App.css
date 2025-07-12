@@ -1,0 +1,101 @@
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px; /* for navbar offset */
+}
+
+.App {
+  width: 100%;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  background-image: url('https://wallpapers.com/images/hd/dark-pink-oldur8esbu5e4c9m.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #ffffff;
+  text-align: center;
+   overflow-x: hidden;
+}
+
+/* Section styles */
+.section {
+  width: 100%;
+  max-width: 1200px;
+  padding: 120px 20px 80px 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+/* Optional: glass-like content card */
+
+.content {
+  width: 100%;
+  max-width: 900px;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+
+.content h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.content p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.content button {
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: plum;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.content button:hover {
+  transform: scale(1.05);
+  background-color: plum;
+}
+@media (max-width: 768px) {
+  .App {
+    background-attachment: scroll;
+    padding: 0;
+  }
+
+  .content h1 {
+    font-size: 32px;
+  }
+
+  .content p {
+    font-size: 16px;
+  }
+
+  .content {
+    padding: 20px;
+  }
+  .body{
+    overflow-x: hidden;
+  }
+}
+
+
+
