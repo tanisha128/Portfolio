@@ -16,7 +16,7 @@ export default function Home({scrollToSection}) {
           
         </div>
         <div className='content-right'>
-            <img src = "https://static.vecteezy.com/system/resources/previews/028/597/534/non_2x/young-cartoon-female-avatar-student-character-wearing-eyeglasses-file-no-background-ai-generated-png.png"  alt= 'profile'/> 
+            <img src = "images/me.jpg"  alt= 'profile'/> 
         </div>
     </div>
   )

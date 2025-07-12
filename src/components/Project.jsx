@@ -11,7 +11,7 @@ const projects = [
     title: 'Food Delight App',
     description: 'A web application that allows users to explore and order food from various restaurants.',
     image: 'images/food.png',
-    link:'https://github.com/tanisha128/Login_interface',
+    link:'https://github.com/tanisha128/Food-Delight',
 
 
   },
@@ -27,18 +27,19 @@ const projects = [
     title: 'Portfolio Website',
     description: 'A personal portfolio website to showcase projects and skills',
     image: "images/portfolio.png",
+    link: 'https://github.com/tanisha128/Portfolio'
   },
   {
     title: 'Nike Store Clone',
     description: 'A clone of the Nike store website, featuring product listings and a shopping cart.',
     image: "images/nike.png",
-    link: '',
+    link: 'https://github.com/tanisha128/Nike_project',
   },
    {
     title: 'TODO List',
     description: 'A simple TODO list application to manage daily tasks efficiently.',
     image: "images/todo.png",
-    link:'https://github.com/tanisha128/Nike_project',
+    link:'https://github.com/tanisha128/ToDo-List',
   },
   
 ];
